@@ -7,8 +7,8 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get update \
 		graphviz \
 	&& rm -rf /var/lib/apt/lists/*
 
-VOLUME ["/data"]
+VOLUME ["/data/src", "/data/output"]
 
-WORKDIR /data
+WORKDIR /data/src
 
 ENTRYPOINT ["doxygen"]
