@@ -1,5 +1,5 @@
 FROM debian:jessie
-MAINTAINER Kalle R. Møller <docker-doxygen@k-moeller.dk>
+MAINTAINER Kalle R. MÃ¸ller <docker-doxygen@k-moeller.dk>
 
 RUN DEBIAN_FRONTEND=noninteractive apt-get update \
 	&& DEBIAN_FRONTEND=noninteractive apt-get install -y \
