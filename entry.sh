@@ -1,4 +1,4 @@
 #!/usr/bin/env
 
-rm -rf /data/output/*.*
+rm -rf /data/output/*
 doxygen
