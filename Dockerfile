@@ -11,4 +11,6 @@ VOLUME ["/data/src", "/data/output"]
 
 WORKDIR /data/src
 
-ENTRYPOINT ["doxygen"]
+ADD entry.sh /entry.sh
+
+ENTRYPOINT ["/entry.sh"]
