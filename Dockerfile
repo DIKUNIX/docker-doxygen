@@ -1,4 +1,5 @@
-FROM debian:jessie
+FROM kalledk/debian:jessie
+
 MAINTAINER Kalle R. Møller <docker-doxygen@k-moeller.dk>
 
 RUN DEBIAN_FRONTEND=noninteractive apt-get update \
