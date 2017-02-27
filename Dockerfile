@@ -8,7 +8,7 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get update \
 		graphviz \
 	&& rm -rf /var/lib/apt/lists/*
 
-VOLUME ["/data/src", "/data/output"]
+VOLUME ["/data/src"]
 
 WORKDIR /data/src
 
