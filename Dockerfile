@@ -14,4 +14,4 @@ USER docker
 
 WORKDIR /home/docker/
 
-ENTRYPOINT ["/usr/local/bin/irb"]
+CMD ["irb"]
