@@ -8,4 +8,4 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get update \
     graphviz \
   && rm -rf /var/lib/apt/lists/*
 
-ENTRYPOINT ["bash"]
+ENTRYPOINT ["/bin/bash"]
