@@ -28,7 +28,7 @@
 # ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 # POSSIBILITY OF SUCH DAMAGE.
 
-.PHONY: build
+.PHONY: build interact
 
 name:=$(shell basename $(CURDIR))
 version:=0.0.1
