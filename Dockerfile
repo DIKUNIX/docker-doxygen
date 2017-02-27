@@ -1,6 +1,6 @@
 FROM kalledk/debian:jessie
 
-MAINTAINER Kalle R. Møller <docker-doxygen@k-moeller.dk>
+MAINTAINER Sven U. Frenzel <docker@frenzel.dk>
 
 RUN DEBIAN_FRONTEND=noninteractive apt-get update \
 	&& DEBIAN_FRONTEND=noninteractive apt-get install -y \
@@ -8,10 +8,4 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get update \
 		graphviz \
 	&& rm -rf /var/lib/apt/lists/*
 
-VOLUME ["/data/src"]
-
-WORKDIR /data/src
-
-ADD entry.sh /entry.sh
-
-ENTRYPOINT ["/entry.sh"]
+ENTRYPOINT ["bash"]
