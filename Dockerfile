@@ -14,4 +14,4 @@ USER docker
 
 WORKDIR /home/docker/
 
-ENTRYPOINT ["/bin/bash"]
+ENTRYPOINT ["/usr/local/bin/irb"]
