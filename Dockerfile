@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM ruby:2.1
 
 MAINTAINER Sven U. Frenzel <docker@frenzel.dk>
 
