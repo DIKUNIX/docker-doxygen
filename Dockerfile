@@ -1,4 +1,4 @@
-FROM kalledk/debian:jessie
+FROM debian:jessie
 
 MAINTAINER Sven U. Frenzel <docker@frenzel.dk>
 
